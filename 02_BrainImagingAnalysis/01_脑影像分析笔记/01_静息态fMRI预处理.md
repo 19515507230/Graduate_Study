@@ -97,11 +97,38 @@ DICOM Sorter用于DICOM数据的模态分类，例如：3D、DTI、REST
 
 #### 内置模板参数（Template Parameters)
 
-静息态数据预处理一般步骤 1 ： 标准空间回归协变量，标准空间解算指标
+| 选项                                      | 计算步骤                  | 描述                                   |
+| ----------------------------------------- | ------------------------- | -------------------------------------- |
+| Calculate in MNI Space:TRADITIONAL order  | 静息态数据预处理一般步骤1 | 标准空间回归协变量，标准空间解算指标。 |
+| V5:Calculate in MNI Space(warp by DARTEL) | 静息态数据预处理一般步骤2 | 个体空间回归协变量，标准空间解算指标。 |
+| Calculate Original Space(warp by DRTEL)   | 静息态数据预处理一般步骤3 | 个体空间回归协变量，个体空间解算指标。 |
 
-静息态数据预处理 一般步骤2： 个体空间回归协变量 标准空间解算指标
+#### 文件名称后缀
 
-静息态数据预处理一般步骤 3 ： 个体空间回归协变量，个体空间解算指标
+| 字母 | 描述         | 字母 | 描述              |
+| ---- | ------------ | ---- | ----------------- |
+| A    | Slice timing | R    | Realign           |
+| W    | Normalize    | S    | Smooth            |
+| D    | Detrend      | C    | Regress covariate |
+| F    | Filter       | B    | Scrub             |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
