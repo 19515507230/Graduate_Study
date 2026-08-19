@@ -62,7 +62,7 @@
 
 DICOM Sorter用于DICOM数据的模态分类，例如：3D、DTI、REST
 
-<img src="./assets/dpabi窗口.png" alt="dpabi窗口" style="zoom:50%;" /><img src="./assets/Utilities.png" alt="Utilities" style="zoom:50%;" />
+<img src="./assets/dpabi窗口.png" alt="dpabi窗口" style="zoom:20%;" /><img src="./assets/Utilities.png" alt="Utilities" style="zoom:50%;" />
 <img src="./assets/DICOMSorter.png" alt="DICOMSorter" style="zoom: 40%;" />
 
 #### 数据的导入
